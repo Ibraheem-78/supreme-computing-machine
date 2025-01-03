@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  
+    <style>
+        body {
+	font-family: Arial, sans-serif;
+    background-image: url(car2.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.container {
+	width: 80%;
+	margin: 40px auto;
+	background-color: #49070767;
+	padding: 20px;
+	border: 1px solid #dddddd25;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contact-form {
+	margin-top: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+button{
+	background-color: #345ca0;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #5f0a0a;
+}
+footer {
+    background-color: rgba(214, 15, 78, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px; /* Limit the maximum width */
+    margin: auto; /* Center the footer */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+}
+
+.footer-content {
+    margin-bottom: 10px; /* Space between content and links */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center align the links */
+}
+
+.footer-links li {
+    margin: 0 15px; /* Horizontal spacing between links */
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffcccb; /* Light color on hover */
+}
+
+.footer-social {
+    margin-top: 10px; /* Space above social icons */
+}
+
+.footer-social .social-icon {
+    margin: 0 10px; /* Spacing between icons */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-social .social-icon:hover {
+    color: #ffcccb; /* Light color on hover */
+}
+
+
+    </style>
+</head>
+<body>
+	<div class="container">
+		<form id="contact-form">
+			<h2>Get in Touch</h2>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<button type="submit">Send Message</button>
+		</form>
+	</div>
+
+    <div class="footer-container">
+        <div class="footer-content">
+            <p>&copy; 2024 Syeda Ushna Ali. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+           
+        </div>
+        <div class="footer-social">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
